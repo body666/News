@@ -1,0 +1,23 @@
+{
+  "app_name" : "News",
+  "news_app" : "News App",
+  "sports" : "Sports",
+  "general" : "General",
+  "health" : "Health",
+  "business" : "Business",
+  "technology" : "Technology",
+  "science" : "Science",
+  "pick_your_Category": "Pick your Category of Interest",
+  "settings": "Settings",
+  "categories": "Categories",
+  "search" : "Search...",
+  "language" : "Language",
+  "news_details": "News Details",
+  "view_full_article": "View Full Article",
+  "show_more": "Show More",
+  "show_less": "Show Less",
+  "try_again": "Try Again",
+  "no_news_found" : "No News Found",
+  "loading": "Loading..."
+
+}
