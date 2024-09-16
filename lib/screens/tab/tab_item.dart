@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/SourcesResponse.dart';
+import '../../models/SourcesResponse.dart';
 class TabItem extends StatelessWidget {
 
   Sources sources;
@@ -10,11 +10,11 @@ class TabItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(vertical: 6,horizontal: 10),
+      padding: const EdgeInsets.symmetric(vertical: 6,horizontal: 10),
       decoration:  BoxDecoration(
-        color: isSelected?Colors.green:Colors.transparent,
+        color: isSelected? Colors.green:Colors.transparent,
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.green),
+        border:Border.all(color: Colors.green,width: 2),
       ),
       child: Text(sources.name??"",
         style: TextStyle(color: isSelected?Colors.white:Colors.green),

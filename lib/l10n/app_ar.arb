@@ -1,0 +1,23 @@
+{
+  "app_name" : "أخبار",
+  "news_app" : "تطبيق الأخبار",
+  "sports" : "رياضة",
+  "general" : "عام",
+  "health" : "صحة",
+  "business" : "أعمال",
+  "technology" : "تكنولوجيا",
+  "science" : "علوم",
+  "pick_your_Category": "إختر فئة إهتمامك",
+  "settings": "الإعدادات",
+  "categories": "الفئات",
+  "search" : "بحث...",
+  "language" : "اللغة",
+  "news_details": "تفاصيل الخبر",
+  "view_full_article": "أظهر المقالة كاملة",
+  "show_more": "عرض المزيد",
+  "show_less": "إخفاء المقالة",
+  "try_again": "حاول مرة أخري",
+  "no_news_found" : "لا يوجد أخبار",
+  "loading": "تحميل..."
+
+}

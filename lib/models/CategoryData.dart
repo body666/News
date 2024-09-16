@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-class CategoryData{
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+class CategoryData {
   String id;
   String title;
   String image;
@@ -7,16 +8,20 @@ class CategoryData{
 
   CategoryData(this.id, this.title, this.image, this.color);
 
- static List<CategoryData> getCategories(){
+  static List<CategoryData> getCategories(BuildContext context) {
     return [
-      CategoryData("sports", "Sports", "assets/images/ball.png", Color(0xFFC91C22)),
-      CategoryData("business", "Business", "assets/images/bussines.png", Color(0xFFCF7E48)),
-      CategoryData("Entertainment", "Entertainment", "assets/images/environment.png", Color(0xFF003E90)),
-      CategoryData("General", "General", "assets/images/Politics.png", Color(0xFF4882CF)),
-      CategoryData("Health", "Health", "assets/images/health.png", Color(0xFFED1E79)),
-      CategoryData("Science", "Science", "assets/images/science.png", Color(0xFFF2D352)),
-
+      CategoryData("sports",AppLocalizations.of(context)!.sports , "assets/images/ball.png",
+          const Color(0xFFC71C22)),
+      CategoryData("technology",AppLocalizations.of(context)!.technology , "assets/images/technology.png",
+          const Color(0xFF003E8F)),
+      CategoryData("health", AppLocalizations.of(context)!.health, "assets/images/health.png",
+          const Color(0xFFED1E79)),
+      CategoryData("business", AppLocalizations.of(context)!.business, "assets/images/bussines.png",
+          const Color(0xFFCD7D47)),
+      CategoryData("general",AppLocalizations.of(context)!.general,
+          "assets/images/environment.png", const Color(0xFF4781CD)),
+      CategoryData("science", AppLocalizations.of(context)!.science, "assets/images/science.png",
+          const Color(0xFFF2D352)),
     ];
   }
-
 }
